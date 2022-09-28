@@ -13,6 +13,24 @@
   integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="animals.html">Interesting Insects</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+          </li>
+          <li>
+              <a class="nav-link" href="advanced.html">Advanced</a>
+          </li>
+      </ul>
+  </div>
+  </nav>
+
     <h1>Insects by Bhanuteja Chitrala</h1>
 
     <div class="container">
@@ -130,6 +148,17 @@
     </div>
 
     <br>
-    
+
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="Drop" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Dropdown
+      </button>
+      <div class="dropdown-menu" aria-labelledby="Drop">
+          <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+          <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+      </div>
+  </div>
+  <br><br>
 </body>
 </html>
